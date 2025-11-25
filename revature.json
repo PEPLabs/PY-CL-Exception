@@ -1,0 +1,20 @@
+{
+  "type": "python",
+  "testFiles": [
+    {
+      "path": "src/test/lab_test.py",
+      "testCases": [
+        {
+          "methodName": "test_must_throw",
+          "label": "Must Throw Exception",
+          "description": "Ensures that Lab.must_throw() raises an Exception when called."
+        },
+        {
+          "methodName": "test_must_throw_exists",
+          "label": "Must Throw Method Exists",
+          "description": "Checks that the Lab class contains a must_throw() method."
+        }
+      ]
+    }
+  ]
+}
